@@ -1,0 +1,76 @@
+﻿ body {
+    background:#6b92b9;
+}
+canvas {
+    display:block;
+}
+#Wrapper {
+    position:fixed;
+    left:50%;
+    top:50%;
+    margin-top: -50px;
+    margin-left: -100px;
+    display:inline-block;
+}
+#error {
+	position:fixed;
+	left:50%;
+	top:50%;
+	margin-top: 25px;
+	margin-left: -25px;
+	display: inline-block;
+}
+#userpicture {
+    position:absolute;
+    top:15px;
+    right:15px;
+    display: inline-block;  
+}
+body {
+ overflow: -moz-scrollbars-vertical;
+ overflow-x: auto;
+ overflow-y: auto;
+}
+a {
+    text-decoration: none;
+}
+
+nav {
+    position:fixed;
+    left:0%;
+    top: 30%;
+    display: inline-block;
+}
+button {
+    border-bottom-left-radius: 30%;
+    border-top-right-radius: 30%;
+}
+#recipesResult {
+        position:fixed;
+	left:36%;
+	top:34%;
+	margin-top: 25px;
+	margin-left: 25px;
+	display: inline-block;
+}
+#rec li {
+    list-style-type: none;
+    display: inline-block;
+    
+}
+textarea {
+    height: 200px;
+    width: 150px;
+}
+#SearchResult {
+    top:50px;
+    left:50px;
+}
+#FormrecipesResult {
+        position:fixed;
+	left:36%;
+	top:14%;
+	margin-top: 25px;
+	margin-left: 25px;
+	display: inline-block;
+}
